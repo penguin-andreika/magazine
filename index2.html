@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>  </head>
+    <body>
+        <h1>Magazin online</h1>
+        <p id="para1">This is a paragraph.</p>
+        <button onclick="changeText('para1' , 'This is a new text.')"> Change text</button>
+        
+        <p id="para2">This is another paragraph.</p>
+        <button onclick="changeText('para2', 'This is another new text.')"> Change text</button>
+
+        <p id='increment'>1</p>
+        <button onclick="increment()">INCREMENT</button>
+
+        <script>
+            function changeText (id, newText) {
+                
+                document.getElementById(id).innerHTML= newText;
+            }
+
+        </script>
+
+        <script>
+            function increment() {
+                var str = parseInt.getElementById('increment').innerHTML;
+                document.getElementById('increment').innerHTML = ++str;
+            }
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COS DE CUMPARATURI</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Magazin Online <span>Politehnica Iași</span></h1>
+            <h2>Produse</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="center">
+                            <img
+                                src="https://gomagcdn.ro/domains/politehnicaiasi.ro/files/product/large/tricou-polo-winner-alb-navy-305-7887.jpg"
+                                alt="TRICOU POLO PREZENTARE ALB-NAVY"
+                            />
+                            <p>TRICOU POLO PREZENTARE ALB-NAVY</p>
+                            <p class="pret"><span>120</span> LEI</p>
+                            <button
+                                class="add_button"
+                                data-pret="120"
+                                data-name="TRICOU POLO PREZENTARE ALB-NAVY"
+                            >
+                                ADAUGA ÎN COȘ
+                            </button>
+                        </td>
+                        <td class="center">
+                            <img
+                                src="https://gomagcdn.ro/domains/politehnicaiasi.ro/files/product/large/tricou-dama-poli-iasi-326-9476.jpg"
+                            />
+                            <p>TRICOU DAMA<br />POLI IAȘI</p>
+                            <p class="pret"><span>39</span> LEI</p>
+                            <button
+                                class="add_button"
+                                data-pret="39"
+                                data-name="TRICOU DAMA POLI IASI"
+                            >
+                                ADAUGA ÎN COȘ
+                            </button>
+                        </td>
+                        <td class="center">
+                            <img
+                                src="https://gomagcdn.ro/domains/politehnicaiasi.ro/files/product/large/tricou-polo-dama-poli-iasi-372-7179.jpg"
+                            />
+                            <p>TRICOU POLO DAMA POLI IAȘI</p>
+                            <p class="pret"><span>49</span> LEI</p>
+                            <button
+                                class="add_button"
+                                data-pret="49"
+                                data-name="TRICOU POLO DAMA POLI IASI"
+                            >
+                                ADAUGA ÎN COȘ
+                            </button>
+                        </td>
+                        <td>
+                            <h2>Coș de cumpărături</h2>
+                            <ul id="cos">
+                                <li id="gol">Coșul este gol.</li>
+                                <li id="min">Comanda minimă este 100 de lei.</li>
+                                <li id="total">Total: <span id="total_amount">0</span> LEI</li>
+                            </ul>
+
+                            <button id="goleste_cos">GOLESTE COS</button
+                            ><button id="comanda">PLASEAZĂ COMANDA</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="cart_functions.js"></script>
+    </body>
+</html>
